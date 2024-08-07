@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: navy;
+}
+
+.links {
+    display: grid;
+
+    padding: 10rem;
+    height: 10rem;
+    width: 20rem;
+    gap: 2rem;
+
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+
+    background-color: beige;
+}
+
+.signIN:any-link, .signUP:any-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: saddlebrown;
+    color: white;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.signIN:hover, .signUP:hover {
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
